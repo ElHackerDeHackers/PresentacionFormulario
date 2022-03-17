@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PresentacionFormulario</string>
+    <string name="emailHint">Correo electrónico</string>
+    <string name="TVsexoValue">Sexo</string>
+    <string name="phoneHint">Teléfono</string>
+    <string name="RBmujer">Mujer</string>
+    <string name="RBhombre">Hombre</string>
+    <string name="RBlosdos" >Los dos</string>
+    <string name="RBninguno">Ninguno</string>
+    <string name="TVmascotas">Mascotas</string>
+    <string name="CBperro">Perro</string>
+    <string name="CBgato">Gato</string>
+    <string name="CBotros">Otros</string>
+    <string name="TVhermanos">Número de hermanos</string>
+    <string name="BTNenviar">Enviar</string>
+    <string name="BTNvolver">Volver</string>
+    <string name="labelCorreo">Correo electrónico</string>
+    <string name="labelSexo">Sexo</string>
+    <string name="labelTelefono">Teléfono</string>
+    <string name="labelMascotas">Mascotas</string>
+    <string name="labelNumHermanos">Número de hermanos</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextInputLayoutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailHint">
+
+        <EditText
+            android:id="@+id/ETemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextInputLayoutPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ETtelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phoneHint"
+            android:inputType="phone"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/TVsexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TVsexoValue" />
+
+    <RadioGroup
+        android:id="@+id/RGsexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RBhombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/RBhombre" />
+
+        <RadioButton
+            android:id="@+id/RBmujer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/RBmujer" />
+
+        <RadioButton
+            android:id="@+id/RBlosdos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/RBlosdos" />
+
+        <RadioButton
+            android:id="@+id/RBninguno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/RBninguno" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TVhermanos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TVhermanos" />
+
+    <Spinner
+        android:id="@+id/SpinnerHermanos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/numero_hermanos"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/TVmascotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TVmascotas" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/CBPerro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/CBperro" />
+
+        <CheckBox
+            android:id="@+id/CBgato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/CBgato" />
+
+        <CheckBox
+            android:id="@+id/CBotros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/CBotros" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BTNenviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BTNenviar" />
+
+</LinearLayout>
